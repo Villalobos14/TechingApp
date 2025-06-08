@@ -1,0 +1,52 @@
+name: teching_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  flutter_svg: ^1.1.1
+  lottie: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Lottie animations
+    - assets/lottie/
+    
+    # Images
+    - assets/img/
+    - assets/img/avatar.png
+    - assets/img/bell.png
+    
+    # Practice cards images
+    - assets/img/cards.png
+    - assets/img/pencil.png
+    - assets/img/avion.png
+    - assets/img/newspapper.png
+    
+    # Bottom menu images
+    - assets/img/menumenu.png
+    - assets/img/tareasmenu.png
+    - assets/img/rocketmenu.png
+    - assets/img/cubesmenu.png
+    - assets/img/avionmenu.png
+    - assets/img/casa1.png
+    - assets/img/tareas2.png
+    - assets/img/rocket3.png
+    - assets/img/star4.png
+    - assets/img/avion5.png
+
