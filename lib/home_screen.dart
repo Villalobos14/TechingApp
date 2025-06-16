@@ -13,7 +13,6 @@ class PracticeHomeScreen extends StatefulWidget {
 }
 
 class _PracticeHomeScreenState extends State<PracticeHomeScreen> {
-  // 🔥 MOCK DATA → reemplaza por tu lógica real
   final String userName     = 'Alejandro';
   final int streakDays      = 21;
   final double progressPts  = 520;
@@ -85,7 +84,7 @@ class _PracticeHomeScreenState extends State<PracticeHomeScreen> {
               const SizedBox(height: 20),
 
               Text(
-                'How would you like to practice today?',
+                'Howw would you like to practice today?',
                 style: GoogleFonts.poppins(
                   fontSize: 24,
                   fontWeight: FontWeight.w700,
