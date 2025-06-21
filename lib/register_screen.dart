@@ -58,7 +58,7 @@ class RegisterScreen extends StatelessWidget {
                 TextField(
                   obscureText: true,
                   decoration: InputDecoration(
-                    hintText: 'Password',
+                    hintText: 'Passwordd',
                     hintStyle: GoogleFonts.poppins(),
                     border: inputBorder,
                     contentPadding:
